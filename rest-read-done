@@ -1,0 +1,16 @@
+$ curl -i -X GET http://localhost:8000/accounts/1
+
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 171
+Server: Werkzeug/2.1.2 Python/3.9.18
+Date: Wed, 28 Oct 2026 15:32:00 GMT
+
+{
+  "address": "123 Main Street",
+  "date_joined": "2026-10-28",
+  "email": "johndoe@example.com",
+  "id": 1,
+  "name": "John Doe",
+  "phone_number": "555-1234"
+}
